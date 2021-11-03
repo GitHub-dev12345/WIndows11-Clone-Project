@@ -1,0 +1,71 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-image: url("../Images/bg.jpeg");
+        background-size: cover;
+        overflow: hidden;
+        height: 100vh;
+    }
+
+
+    /* Taskbar section */
+    .taskbar{
+        background-color: #f3f3f3;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        z-index: 110;
+        justify-content: center;
+    }
+
+    .startmenu {
+        position: absolute;
+        /* bottom: 50px; */
+        bottom: -655px;
+        text-align: center;
+        width: 100%;
+        transition: all 0.3s ease-in;
+    }
+
+    .startmenu img{
+        border-radius: 9px;
+    }
+
+    .right{
+        position: absolute;
+        right: 0;
+        margin: 6px 0px;
+        height: 85%;
+    }
+
+    /* Icons section */
+
+    .icons{
+        margin: 20px 20px;
+        width: 80px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icons div{
+        line-height: 18px;
+    }
+
+    .icons .chrome{
+        width: 74px;
+    }
+
+    .icons .ico{
+        width: 49px;
+        margin: 11px;
+    }
+
+    .icons div{
+        color: white;
+        text-align: center;
+        margin-left: 2px;
+    }
