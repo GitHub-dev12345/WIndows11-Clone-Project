@@ -3,6 +3,7 @@
         padding: 0;
     }
 
+    /* Body Design CSS Code */
     body{
         background-image: url("../Images/bg.jpeg");
         background-size: cover;
@@ -22,6 +23,7 @@
         justify-content: center;
     }
 
+    /* StartMenu Design CSS Code */
     .startmenu {
         position: absolute;
         /* bottom: 50px; */
@@ -32,7 +34,7 @@
     }
 
     .startmenu img{
-        border-radius: 9px;
+        border-radius: 15px;
     }
 
     .right{
