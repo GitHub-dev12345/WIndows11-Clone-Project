@@ -1,11 +1,5 @@
 // Google Fonts
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
-/* CSS Reset */
-*{
-    margin: 0;
-    padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); 
 
 /* Body Design CSS Code */
 body{
@@ -27,6 +21,7 @@ body{
         color: white;
         text-align: center;
         margin-left: 2px;
+        font-size: 0.7rem;
     }
 }
 .chrome{
@@ -52,13 +47,12 @@ body{
 /* StartMenu Design CSS Code */
 .startmenu {
     position: absolute;
-    /* bottom: 50px; */
     bottom: -655px;
-    text-align: center;
     width: 100%;
     transition: all 0.3s ease-in;
     img{
         border-radius: 15px;
+        margin: auto;
     }
 }
 
@@ -68,3 +62,5 @@ body{
     margin: 6px 0px;
     height: 85%;
 }
+
+@import 'CssReset'
