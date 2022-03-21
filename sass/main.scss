@@ -1,0 +1,70 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Design CSS Code */
+body{
+    background-image: url("../Images/bg.jpeg");
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Icons section */
+.icons{
+    margin: 20px 20px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    div{
+        line-height: 18px;
+        color: white;
+        text-align: center;
+        margin-left: 2px;
+    }
+}
+.chrome{
+    width: 74px;
+}
+
+.ico{
+    width: 49px;
+    margin: 11px;
+}
+
+/* Taskbar section */
+.taskbar{
+    background-color: #f3f3f3;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    z-index: 110;
+    justify-content: center;
+}
+
+/* StartMenu Design CSS Code */
+.startmenu {
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -655px;
+    text-align: center;
+    width: 100%;
+    transition: all 0.3s ease-in;
+    img{
+        border-radius: 15px;
+    }
+}
+
+.right{
+    position: absolute;
+    right: 0;
+    margin: 6px 0px;
+    height: 85%;
+}
